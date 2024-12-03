@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheApptimizer - Developer & Content Creator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="bg-shape circle"></div>
+        <div class="bg-shape square"></div>
+        <div class="bg-shape glow"></div>
+        <div class="bg-shape circle"></div>
+        <nav>
+            <a href="#" class="logo">
+                <i class="fas fa-code logo-icon"></i>
+                TheApptimizer
+            </a>
+            <button class="menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#social" class="nav-link">Connect</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Kahach Rofe</span></h1>
+                <p class="tagline">Developer & Content Creator</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="primary-btn">Get in Touch</a>
+                    <div class="cta-buttons">
+                        <a href="https://www.youtube.com/@theapptimizer?sub_confirmation=1" target="_blank" class="youtube-btn">
+                            <i class="fab fa-youtube"></i>
+                            Subscribe
+                        </a>
+                        <a href="https://www.buymeacoffee.com/theapptimizer" target="_blank" class="coffee-btn">
+                            <i class="fas fa-mug-hot"></i>
+                            Buy me a coffee
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card github">
+                    <div class="stat-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="stat-numbers">
+                        <div class="stat">
+                            <span id="repoCount">-</span>
+                            <label>Repos</label>
+                        </div>
+                        <div class="stat">
+                            <span id="starCount">-</span>
+                            <label>Stars</label>
+                        </div>
+                        <div class="stat">
+                            <span id="followerCount">-</span>
+                            <label>Followers</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="social" class="social-section">
+        <div class="bg-shape dots"></div>
+        <div class="bg-shape wave"></div>
+        <div class="bg-shape glow"></div>
+        <div class="bg-shape circle"></div>
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+        <div class="section-header">
+            <h2>Connect With Me</h2>
+            <p>Find me across the web</p>
+        </div>
+        <div class="social-grid">
+            <div class="social-card github">
+                <i class="fab fa-github social-icon"></i>
+                <h3 class="social-title">GitHub</h3>
+                <p class="social-description">Check out my open source projects and contributions</p>
+                <a href="https://github.com/mehedyhassanratul" class="social-link" target="_blank">
+                    Follow me <i class="fas fa-arrow-right"></i>
+                </a>
+                <div class="social-stats">
+                    <div class="stat-item">
+                        <span class="stat-value" id="repoCount">Error</span>
+                        <span class="stat-label">Repos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="starCount">Error</span>
+                        <span class="stat-label">Stars</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="followerCount">Error</span>
+                        <span class="stat-label">Followers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-card youtube">
+                <i class="fab fa-youtube social-icon"></i>
+                <h3 class="social-title">YouTube</h3>
+                <p class="social-description">Watch my tech tutorials and coding videos</p>
+                <a href="https://youtube.com/@theapptimizer" class="social-link" target="_blank">
+                    Subscribe <i class="fas fa-arrow-right"></i>
+                </a>
+                <div class="social-stats">
+                    <div class="stat-item">
+                        <span class="stat-value" id="ytSubCount">0</span>
+                        <span class="stat-label">Subscribers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="ytVideoCount">0</span>
+                        <span class="stat-label">Videos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="ytViewCount">0</span>
+                        <span class="stat-label">Views</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-card twitter">
+                <i class="fab fa-twitter social-icon"></i>
+                <h3 class="social-title">Twitter</h3>
+                <p class="social-description">Follow me for tech insights and updates</p>
+                <a href="https://twitter.com/mehedy_hassan2" class="social-link" target="_blank">
+                    Follow <i class="fas fa-arrow-right"></i>
+                </a>
+                <div class="social-stats">
+                    <div class="stat-item">
+                        <span class="stat-value" id="twitterFollowers">0</span>
+                        <span class="stat-label">Followers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="twitterFollowing">0</span>
+                        <span class="stat-label">Following</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="twitterTweets">0</span>
+                        <span class="stat-label">Tweets</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-card facebook">
+                <i class="fab fa-facebook social-icon"></i>
+                <h3 class="social-title">Facebook</h3>
+                <p class="social-description">Connect with me on Facebook</p>
+                <a href="https://facebook.com/mehedyhassanratul2" class="social-link" target="_blank">
+                    Connect <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="social-card instagram">
+                <i class="fab fa-instagram social-icon"></i>
+                <h3 class="social-title">Instagram</h3>
+                <p class="social-description">Follow my coding journey and lifestyle</p>
+                <a href="https://instagram.com/mehedyhassanratul2" class="social-link" target="_blank">
+                    Follow <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="social-card telegram">
+                <i class="fab fa-telegram social-icon"></i>
+                <h3 class="social-title">Telegram</h3>
+                <p class="social-description">Message me directly on Telegram</p>
+                <a href="https://t.me/mehedyhassanratul" class="social-link" target="_blank">
+                    Message <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="bg-shape square"></div>
+        <div class="bg-shape circle"></div>
+        <div class="bg-shape dots"></div>
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <p>Send me a message and I'll get back to you as soon as possible.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Your Phone (optional)</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+            <div id="formStatus" class="form-status"></div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">TheApptimizer</div>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/mehedyhassanratul"><i class="fab fa-github"></i></a>
+                <a href="https://youtube.com/@theApptimizer"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/mehedy_hassan2"><i class="fab fa-twitter"></i></a>
+                <a href="https://facebook.com/mehedyhassanratul2"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TheApptimizer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
